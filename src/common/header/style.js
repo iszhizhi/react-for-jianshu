@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import logoPic from "../../statics/logo";
+// import logoPic from '../../statics/logo';
 
 export const HeaderWrapper = styled.div`
   z-index: 1;
@@ -15,7 +15,6 @@ export const Logo = styled.a`
   display: block;
   width: 100px;
   height: 56px;
-  background: url(${logoPic});
   background-size: contain;
 `;
 
